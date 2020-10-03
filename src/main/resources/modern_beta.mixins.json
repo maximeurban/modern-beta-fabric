@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bespectacled.modernbeta.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBiomeArray",
+    "MixinGeneratorOptions"
+  ],
+  "client": [
+    "MixinBlockColors",
+    "MixinClientWorld",
+    "MixinWorldRenderer",
+    "MixinMinecraftClient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
